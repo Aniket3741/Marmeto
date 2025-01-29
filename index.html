@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <title>Cart</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="logo">
+        <img src="/images/logo.png" alt="">
+        <div class="logo">Marmeto</div>
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fa-regular fa-heart"></i>
+        <img src="./images/icon-shop.png" alt="Shopping Cart" />
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-overlay">
+        <img src="/images/logo.png" alt="">
+        <h1>Cart</h1>
+        <p>Home > Cart</p>
+      </div>
+  </section>
+
+  <!-- Cart Section -->
+  <div class="cart-section">
+    <div class="cart-container">
+      <div class="cart-items">
+        <table>
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Subtotal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="product">
+                <img src="/images/table.png" alt="Asgaard Sofa">
+                <span>Asgaard sofa</span>
+              </td>
+              <td>Rs. 250,000.00</td>
+              <td>
+                <input type="number" min="1" value="1">
+              </td>
+              <td>Rs. 250,000.00</td>
+              <td>
+                <button class="remove-item"><i class="fa-solid fa-trash"></i></button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  
+      <aside class="cart-totals">
+        <h2>Cart Totals</h2>
+        <div class="totals">
+          <p>Subtotal:</p>
+          <span>Rs. 250,000.00</span>
+        </div>
+        <div class="totals">
+          <p>Total:</p>
+          <span class="total-price" style="color: #f5b642; font-size: 20px;">Rs. 250,000.00</span>
+        </div>
+        <button class="checkout-btn">Check Out</button>
+      </aside>
+    </div>
+  </div>
+  
+
+  <!-- Footer -->
+  <div class="services-section">
+    <div class="service-item">
+      <!-- <div class="icon"><i class="fa-solid fa-trophy"></i></div> -->
+      <div class="icon">
+        <img src="./images/1.png" alt="Icon" />
+      </div>
+      <div class="content">
+        <h3>High Quality</h3>
+        <p>crafted from top materials</p>
+      </div>
+    </div>
+    <div class="service-item">
+      <!-- <div class="icon"><i class="fa-solid fa-circle-check"></i></div> -->
+      <div class="icon">
+        <img src="./images/2.png" alt="Icon" />
+      </div>
+      <div class="content">
+        <h3>Warranty Protection</h3>
+        <p>Over 2 years</p>
+      </div>
+    </div>
+    <div class="service-item">
+      <!-- <div class="icon"><i class="fa-solid fa-truck-fast"></i></div> -->
+      <div class="icon">
+        <img src="./images/3.png" alt="Icon" />
+      </div>
+      <div class="content">
+        <h3>Free Shipping</h3>
+        <p>Order over 150 $</p>
+      </div>
+    </div>
+    <div class="service-item">
+      <!-- <div class="icon"><i class="fa-solid fa-headset"></i></div> -->
+      <div class="icon">
+        <img src="./images/4.png" alt="Icon" />
+      </div>
+      
+      <div class="content">
+        <h3>24 / 7 Support</h3>
+        <p>Dedicated support</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
